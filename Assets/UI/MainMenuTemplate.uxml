@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/global%20stylesheet.uss?fileID=7433441132597879392&amp;guid=aa5ae891ed7671e46a0f57e2ee0a8c5b&amp;type=3#global stylesheet" />
+    <ui:VisualElement class="center" style="flex-grow: 1; align-items: center; -unity-text-align: upper-center; width: 332px; height: 174px;">
+        <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Game%20Assets/Sprites/Bombs.png?fileID=2800000&amp;guid=4420e8d6e00706f4f84dad51b2169cb1&amp;type=3#Bombs&apos;); width: 374px; height: 174px; justify-content: center; position: absolute; top: 86px; left: 594px;">
+            <ui:Label tabindex="-1" text="Adam&apos;s island adventure" parse-escape-sequences="true" display-tooltip-when-elided="true" class="basic-text" style="font-size: 80px; -unity-text-align: upper-center; background-color: rgb(156, 1, 1); -unity-text-outline-color: rgb(0, 0, 0); justify-content: flex-start; align-items: center; position: absolute; top: 154px; left: -116px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" class="center" style="flex-grow: 1; -unity-text-align: upper-center; justify-content: flex-start; align-items: center;">
+            <ui:VisualElement style="flex-grow: 1; width: -217px; align-items: stretch; justify-content: center;">
+                <ui:Button text="START" parse-escape-sequences="true" display-tooltip-when-elided="true" name="start-button" class="menu-button" style="width: 325px; padding-top: 20px; padding-bottom: 20px; -unity-font: url(&apos;project://database/Assets/Game%20Assets/Fonts/OdibeeSans-Regular.ttf?fileID=12800000&amp;guid=94c91e133c0f88c438ef55128a1cd703&amp;type=3#OdibeeSans-Regular&apos;); -unity-font-definition: initial; font-size: 32px; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; top: 345px; left: 438px; position: absolute;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="player-info-container" style="flex-grow: 1; position: absolute; left: 50px; top: 50px; flex-direction: row;">
+        <ui:VisualElement class="stat-cointainer">
+            <ui:Label tabindex="-1" text="HP" parse-escape-sequences="true" display-tooltip-when-elided="true" class="stat-name" />
+            <ui:Label tabindex="-1" text="000" parse-escape-sequences="true" display-tooltip-when-elided="true" name="health-label" class="stat-value" style="background-color: rgb(0, 0, 0); -unity-font: url(&apos;project://database/Assets/Game%20Assets/Fonts/OdibeeSans-Regular.ttf?fileID=12800000&amp;guid=94c91e133c0f88c438ef55128a1cd703&amp;type=3#OdibeeSans-Regular&apos;); -unity-font-definition: initial; -unity-font-style: bold; font-size: 30px; -unity-text-align: upper-center; color: rgb(255, 255, 255); padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px;" />
+        </ui:VisualElement>
+        <ui:VisualElement class="stat-cointainer">
+            <ui:Label tabindex="-1" text="Potions" parse-escape-sequences="true" display-tooltip-when-elided="true" class="stat-name" />
+            <ui:Label tabindex="-1" text="000" parse-escape-sequences="true" display-tooltip-when-elided="true" name="potions-label" class="stat-value" style="background-color: rgb(0, 0, 0); -unity-font: url(&apos;project://database/Assets/Game%20Assets/Fonts/OdibeeSans-Regular.ttf?fileID=12800000&amp;guid=94c91e133c0f88c438ef55128a1cd703&amp;type=3#OdibeeSans-Regular&apos;); -unity-font-definition: initial; -unity-font-style: bold; font-size: 30px; -unity-text-align: upper-center; color: rgb(255, 255, 255); padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
